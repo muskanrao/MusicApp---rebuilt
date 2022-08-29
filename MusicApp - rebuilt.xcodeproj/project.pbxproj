@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180BECCC284C578A009C67EE /* blue-and-purple-music.json in Resources */ = {isa = PBXBuildFile; fileRef = 180BECCB284C578A009C67EE /* blue-and-purple-music.json */; };
+		180BECCE284C5790009C67EE /* interactive-music.json in Resources */ = {isa = PBXBuildFile; fileRef = 180BECCD284C5790009C67EE /* interactive-music.json */; };
+		180BECD0284C5797009C67EE /* music.json in Resources */ = {isa = PBXBuildFile; fileRef = 180BECCF284C5797009C67EE /* music.json */; };
+		18328861284A5DF10021E3B2 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18328860284A5DF10021E3B2 /* PlayerViewController.swift */; };
+		18328864284A619C0021E3B2 /* Taylor-Swift-Wildest-dreams.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18328863284A619C0021E3B2 /* Taylor-Swift-Wildest-dreams.mp3 */; };
+		18328866284A61A40021E3B2 /* Ed_Sheeran_-_Perfect_(thinknews.com.ng).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18328865284A61A40021E3B2 /* Ed_Sheeran_-_Perfect_(thinknews.com.ng).mp3 */; };
+		18328868284A61AC0021E3B2 /* Closer - The Chainsmokers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18328867284A61AC0021E3B2 /* Closer - The Chainsmokers.mp3 */; };
+		1832886A284A61BC0021E3B2 /* Ariana_Grande_-_Position(Correctvibe.com).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18328869284A61BC0021E3B2 /* Ariana_Grande_-_Position(Correctvibe.com).mp3 */; };
+		1832886C284A61C40021E3B2 /* Dua Lipa - Levitating (Official).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1832886B284A61C40021E3B2 /* Dua Lipa - Levitating (Official).mp3 */; };
+		1832886E284A61D70021E3B2 /* Charlie_Puth_Attention_(thinkNews.com.ng).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1832886D284A61D70021E3B2 /* Charlie_Puth_Attention_(thinkNews.com.ng).mp3 */; };
+		1840355E284C7273002897F7 /* BTS - Fake Love_128-(MastiMusic.Com).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1840355D284C7273002897F7 /* BTS - Fake Love_128-(MastiMusic.Com).mp3 */; };
+		18403560284C73EB002897F7 /* Stay_192(PaglaSongs).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1840355F284C73EB002897F7 /* Stay_192(PaglaSongs).mp3 */; };
+		18403562284C7559002897F7 /* Cool-for-the-Summer_320(PaglaSongs).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18403561284C7559002897F7 /* Cool-for-the-Summer_320(PaglaSongs).mp3 */; };
+		1875B903285F88E000880C05 /* LikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1875B902285F88E000880C05 /* LikeViewController.swift */; };
+		1875B905285F90D600880C05 /* songsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1875B904285F90D600880C05 /* songsList.swift */; };
+		1890CBF12860EC4700E9FAE6 /* InItialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1890CBF02860EC4700E9FAE6 /* InItialViewController.swift */; };
+		1890CBF32860EC5700E9FAE6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1890CBF22860EC5700E9FAE6 /* LoginViewController.swift */; };
+		1890CBF52860EC6800E9FAE6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1890CBF42860EC6800E9FAE6 /* SignUpViewController.swift */; };
+		18CB604C284BCCC4007D9E39 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CB604B284BCCC4007D9E39 /* back.png */; };
+		18E523FF284A5350008B5EBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E523FE284A5350008B5EBA /* AppDelegate.swift */; };
+		18E52401284A5350008B5EBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E52400284A5350008B5EBA /* SceneDelegate.swift */; };
+		18E52403284A5350008B5EBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E52402284A5350008B5EBA /* ViewController.swift */; };
+		18E52406284A5350008B5EBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E52404284A5350008B5EBA /* Main.storyboard */; };
+		18E52408284A5351008B5EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E52407284A5351008B5EBA /* Assets.xcassets */; };
+		18E5240B284A5351008B5EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E52409284A5351008B5EBA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180BECCB284C578A009C67EE /* blue-and-purple-music.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "blue-and-purple-music.json"; sourceTree = "<group>"; };
+		180BECCD284C5790009C67EE /* interactive-music.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "interactive-music.json"; sourceTree = "<group>"; };
+		180BECCF284C5797009C67EE /* music.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = music.json; sourceTree = "<group>"; };
+		18328860284A5DF10021E3B2 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		18328863284A619C0021E3B2 /* Taylor-Swift-Wildest-dreams.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Taylor-Swift-Wildest-dreams.mp3"; sourceTree = "<group>"; };
+		18328865284A61A40021E3B2 /* Ed_Sheeran_-_Perfect_(thinknews.com.ng).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ed_Sheeran_-_Perfect_(thinknews.com.ng).mp3"; sourceTree = "<group>"; };
+		18328867284A61AC0021E3B2 /* Closer - The Chainsmokers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Closer - The Chainsmokers.mp3"; sourceTree = "<group>"; };
+		18328869284A61BC0021E3B2 /* Ariana_Grande_-_Position(Correctvibe.com).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ariana_Grande_-_Position(Correctvibe.com).mp3"; sourceTree = "<group>"; };
+		1832886B284A61C40021E3B2 /* Dua Lipa - Levitating (Official).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dua Lipa - Levitating (Official).mp3"; sourceTree = "<group>"; };
+		1832886D284A61D70021E3B2 /* Charlie_Puth_Attention_(thinkNews.com.ng).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Charlie_Puth_Attention_(thinkNews.com.ng).mp3"; sourceTree = "<group>"; };
+		1840355D284C7273002897F7 /* BTS - Fake Love_128-(MastiMusic.Com).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "BTS - Fake Love_128-(MastiMusic.Com).mp3"; sourceTree = "<group>"; };
+		1840355F284C73EB002897F7 /* Stay_192(PaglaSongs).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Stay_192(PaglaSongs).mp3"; sourceTree = "<group>"; };
+		18403561284C7559002897F7 /* Cool-for-the-Summer_320(PaglaSongs).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cool-for-the-Summer_320(PaglaSongs).mp3"; sourceTree = "<group>"; };
+		1875B902285F88E000880C05 /* LikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeViewController.swift; sourceTree = "<group>"; };
+		1875B904285F90D600880C05 /* songsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = songsList.swift; sourceTree = "<group>"; };
+		1890CBF02860EC4700E9FAE6 /* InItialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InItialViewController.swift; sourceTree = "<group>"; };
+		1890CBF22860EC5700E9FAE6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1890CBF42860EC6800E9FAE6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		18CB604B284BCCC4007D9E39 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		18E523FB284A5350008B5EBA /* MusicApp - rebuilt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MusicApp - rebuilt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E523FE284A5350008B5EBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18E52400284A5350008B5EBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18E52402284A5350008B5EBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18E52405284A5350008B5EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E52407284A5351008B5EBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E5240A284A5351008B5EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E5240C284A5351008B5EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E523F8284A5350008B5EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1832ACF6284BAFB00036C63D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18E52402284A5350008B5EBA /* ViewController.swift */,
+				1890CBF42860EC6800E9FAE6 /* SignUpViewController.swift */,
+				1890CBF22860EC5700E9FAE6 /* LoginViewController.swift */,
+				1890CBF02860EC4700E9FAE6 /* InItialViewController.swift */,
+				1875B902285F88E000880C05 /* LikeViewController.swift */,
+				18328860284A5DF10021E3B2 /* PlayerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1832ACF7284BAFBD0036C63D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1875B904285F90D600880C05 /* songsList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1832ACF8284BAFC70036C63D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18E52404284A5350008B5EBA /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1890CBF62861DDD800E9FAE6 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				18328863284A619C0021E3B2 /* Taylor-Swift-Wildest-dreams.mp3 */,
+				18328865284A61A40021E3B2 /* Ed_Sheeran_-_Perfect_(thinknews.com.ng).mp3 */,
+				18328867284A61AC0021E3B2 /* Closer - The Chainsmokers.mp3 */,
+				18328869284A61BC0021E3B2 /* Ariana_Grande_-_Position(Correctvibe.com).mp3 */,
+				1832886B284A61C40021E3B2 /* Dua Lipa - Levitating (Official).mp3 */,
+				1832886D284A61D70021E3B2 /* Charlie_Puth_Attention_(thinkNews.com.ng).mp3 */,
+				1840355D284C7273002897F7 /* BTS - Fake Love_128-(MastiMusic.Com).mp3 */,
+				1840355F284C73EB002897F7 /* Stay_192(PaglaSongs).mp3 */,
+				18403561284C7559002897F7 /* Cool-for-the-Summer_320(PaglaSongs).mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		18E523F2284A5350008B5EBA = {
+			isa = PBXGroup;
+			children = (
+				18E523FD284A5350008B5EBA /* MusicApp - rebuilt */,
+				18E523FC284A5350008B5EBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E523FC284A5350008B5EBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E523FB284A5350008B5EBA /* MusicApp - rebuilt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E523FD284A5350008B5EBA /* MusicApp - rebuilt */ = {
+			isa = PBXGroup;
+			children = (
+				18E523FE284A5350008B5EBA /* AppDelegate.swift */,
+				18E52400284A5350008B5EBA /* SceneDelegate.swift */,
+				1832ACF7284BAFBD0036C63D /* Model */,
+				1832ACF8284BAFC70036C63D /* View */,
+				1832ACF6284BAFB00036C63D /* Controller */,
+				1890CBF62861DDD800E9FAE6 /* Audio */,
+				18E52407284A5351008B5EBA /* Assets.xcassets */,
+				180BECCB284C578A009C67EE /* blue-and-purple-music.json */,
+				180BECCD284C5790009C67EE /* interactive-music.json */,
+				180BECCF284C5797009C67EE /* music.json */,
+				18E52409284A5351008B5EBA /* LaunchScreen.storyboard */,
+				18E5240C284A5351008B5EBA /* Info.plist */,
+				18CB604B284BCCC4007D9E39 /* back.png */,
+			);
+			path = "MusicApp - rebuilt";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E523FA284A5350008B5EBA /* MusicApp - rebuilt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E5240F284A5351008B5EBA /* Build configuration list for PBXNativeTarget "MusicApp - rebuilt" */;
+			buildPhases = (
+				18E523F7284A5350008B5EBA /* Sources */,
+				18E523F8284A5350008B5EBA /* Frameworks */,
+				18E523F9284A5350008B5EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MusicApp - rebuilt";
+			packageProductDependencies = (
+			);
+			productName = "MusicApp - rebuilt";
+			productReference = 18E523FB284A5350008B5EBA /* MusicApp - rebuilt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E523F3284A5350008B5EBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					18E523FA284A5350008B5EBA = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 18E523F6284A5350008B5EBA /* Build configuration list for PBXProject "MusicApp - rebuilt" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E523F2284A5350008B5EBA;
+			packageReferences = (
+			);
+			productRefGroup = 18E523FC284A5350008B5EBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E523FA284A5350008B5EBA /* MusicApp - rebuilt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E523F9284A5350008B5EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1832886E284A61D70021E3B2 /* Charlie_Puth_Attention_(thinkNews.com.ng).mp3 in Resources */,
+				18328868284A61AC0021E3B2 /* Closer - The Chainsmokers.mp3 in Resources */,
+				180BECCE284C5790009C67EE /* interactive-music.json in Resources */,
+				180BECCC284C578A009C67EE /* blue-and-purple-music.json in Resources */,
+				18328866284A61A40021E3B2 /* Ed_Sheeran_-_Perfect_(thinknews.com.ng).mp3 in Resources */,
+				18328864284A619C0021E3B2 /* Taylor-Swift-Wildest-dreams.mp3 in Resources */,
+				180BECD0284C5797009C67EE /* music.json in Resources */,
+				1840355E284C7273002897F7 /* BTS - Fake Love_128-(MastiMusic.Com).mp3 in Resources */,
+				18403560284C73EB002897F7 /* Stay_192(PaglaSongs).mp3 in Resources */,
+				18E5240B284A5351008B5EBA /* LaunchScreen.storyboard in Resources */,
+				1832886C284A61C40021E3B2 /* Dua Lipa - Levitating (Official).mp3 in Resources */,
+				18CB604C284BCCC4007D9E39 /* back.png in Resources */,
+				18E52408284A5351008B5EBA /* Assets.xcassets in Resources */,
+				18E52406284A5350008B5EBA /* Main.storyboard in Resources */,
+				18403562284C7559002897F7 /* Cool-for-the-Summer_320(PaglaSongs).mp3 in Resources */,
+				1832886A284A61BC0021E3B2 /* Ariana_Grande_-_Position(Correctvibe.com).mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E523F7284A5350008B5EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1875B905285F90D600880C05 /* songsList.swift in Sources */,
+				18E52403284A5350008B5EBA /* ViewController.swift in Sources */,
+				18328861284A5DF10021E3B2 /* PlayerViewController.swift in Sources */,
+				18E523FF284A5350008B5EBA /* AppDelegate.swift in Sources */,
+				1890CBF32860EC5700E9FAE6 /* LoginViewController.swift in Sources */,
+				18E52401284A5350008B5EBA /* SceneDelegate.swift in Sources */,
+				1890CBF52860EC6800E9FAE6 /* SignUpViewController.swift in Sources */,
+				1875B903285F88E000880C05 /* LikeViewController.swift in Sources */,
+				1890CBF12860EC4700E9FAE6 /* InItialViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18E52404284A5350008B5EBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E52405284A5350008B5EBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E52409284A5351008B5EBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E5240A284A5351008B5EBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E5240D284A5351008B5EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18E5240E284A5351008B5EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E52410284A5351008B5EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WBDD6DSTYT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MusicApp - rebuilt/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Music ";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.muskanrao.protocols-Demo2.MusicApp---rebuilt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18E52411284A5351008B5EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WBDD6DSTYT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MusicApp - rebuilt/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Music ";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.muskanrao.protocols-Demo2.MusicApp---rebuilt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E523F6284A5350008B5EBA /* Build configuration list for PBXProject "MusicApp - rebuilt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E5240D284A5351008B5EBA /* Debug */,
+				18E5240E284A5351008B5EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E5240F284A5351008B5EBA /* Build configuration list for PBXNativeTarget "MusicApp - rebuilt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E52410284A5351008B5EBA /* Debug */,
+				18E52411284A5351008B5EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E523F3284A5350008B5EBA /* Project object */;
+}
